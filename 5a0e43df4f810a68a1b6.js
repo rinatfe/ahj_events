@@ -1,0 +1,1 @@
+import Board from"./Board";import Ui from"./Ui";var field=[["","","",""],["","","",""],["","","",""],["","","",""]],boardEl=document.getElementById("board"),img=document.createElement("img"),place=new Board(field),actions=new Ui(boardEl,img);place.renderBoard(),actions.interactive();
